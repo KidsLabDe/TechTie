@@ -1,5 +1,7 @@
 # TechTie: Die intelligente LED-Fliege
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4_6UJCxnLTw/0.jpg)](https://youtube.com/shorts/4_6UJCxnLTw)
+
 
 ## TechTie: Die Krawatte, die mehr kann als nur gut aussehen
 
@@ -34,8 +36,8 @@ Die Zeiten langweiliger Krawatten sind vorbei! Mit der TechTie präsentierst du 
 ## Bedienungsanleitung
 
 ### Erste Schritte
-1. Lade den Akku vor dem ersten Gebrauch vollständig auf (USB-C Anschluss an der Unterseite)
-2. Schalte die Fliege mit dem kleinen Schalter an der Rückseite ein
+1. Lade deine Powerbank vor dem ersten Gebrauch vollständig auf (USB-C Anschluss an der Unterseite)
+2. Stecke die Fliege mit einem USB-C-Kabel an deiner Powerbank an
 3. Drücke den Knopf an der Unterseite, um zwischen den verschiedenen Modi zu wechseln
 
 ### Die Modi im Überblick
@@ -43,8 +45,9 @@ Die Zeiten langweiliger Krawatten sind vorbei! Mit der TechTie präsentierst du 
 **Modus 1: Blau/Orange Lauflicht**  
 Die klassische Kombination aus Blau und Orange fließt elegant über deine Fliege. Perfekt für geschäftliche Anlässe mit einer subtilen Portion Technik-Flair.
 
-**Modus 2: Blau/Weiß Lauflicht**  
+**Modus 2: Weiß/Blau (Bayern) Lauflicht**  
 Ein kühleres, zurückhaltendes Farbschema, ideal für förmliche Veranstaltungen, bei denen du dennoch herausstechen möchtest.
+
 
 **Modus 3: Regenbogen-Animation**  
 Die volle Farbpracht! Dieser Modus verwandelt deine Fliege in ein lebendig pulsierendes Regenbogenspektrum. Der absolute Hingucker auf jeder Party.
@@ -55,6 +58,8 @@ Der Geheimdienstmodus! Deine Fliege scannt die Umgebung nach WLAN-Netzwerken und
 - Orange: Mittleres Signal
 - Grün: Starkes Signal
 
+Natürlich kannst du alle Details im Python Code anpassen
+
 Perfekt, um auf Partys zu überprüfen, ob der Gastgeber wirklich gutes WLAN bietet oder um deinen Tischnachbarn mit deinem Tech-Wissen zu beeindrucken!
 
 ### Pflegehinweise
@@ -64,3 +69,30 @@ Perfekt, um auf Partys zu überprüfen, ob der Gastgeber wirklich gutes WLAN bie
 - Bei Nichtgebrauch ausschalten, um Akku zu schonen
 
 ---
+
+
+## technische Informationen und Bauanleitung
+
+### benötigte Bauteile
+
+- ESP S2 mini (oder ähnliche)
+- neoPixel Streifen (5 V)
+- 3-D, Druckgehäuse
+- Kleiner Tastschalter
+
+### 3-D Druck
+
+Hier findest du zwei STL Dateien für zwei Varianten der Fliege, die du direkt ausdrucken kannst.
+Das Original zum anpassen remixen und ändern, findest du auf TinkerCAD.
+
+### Elektronik und löten
+
+### Firmware aufspielen
+
+Stecke den S.2 mini per USB C an deinem Computer an und halte die Bout Taste. Daraufhin erscheint in deinem Datei Manager ein neues Laufwerk, es heißt:
+
+Nimm die Firmware Datei () und ziehe sie auf das Laufwerk. Nach ungefähr 20 Sekunden startet der ESP neu, und die bunte Farbenpracht sollte bereits zu sehen sein.
+
+### eigene Anpassungen vornehmen
+
+In dem Ordner "Code" findest du den kompletten Code. Er ist in Ferkic geschrieben und lässt sich sehr einfach anpassen. Ich nehme immer den THONNY Editor, du kannst aber jeden anderen nehmen. 
