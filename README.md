@@ -87,9 +87,23 @@ Das Original zum anpassen remixen und ändern, findest du auf TinkerCAD.
 
 ### Elektronik und löten
 
+| PIN    | Verbindung zu    | Funktion                                                     |
+| ------ | ---------------- | ------------------------------------------------------------ |
+| GND    | LED-Streifen GND | Masse                                                        |
+| VBUS   | LED-Streifen 5v+ | Spannungsversorgung                                          |
+| Pin 18 | LED-Streifen DI  | Digital-In - das Signal!                                     |
+| GND    | Knopf            |                                                              |
+| PIN 16 | Knopf            | Manche Taster haben mehr als zwei Anschlüsse: prüfe, ob du die richtigen beiden hast, beim Drücken ist der Schalter geschlossen |
+
+> [!IMPORTANT]
+>
+> Achtung! Die LED-Streifen haben eine "Richtung".
+>
+> D.h., du musst die Kabel an der richtigen Seite an Kerry löten: es gibt Pfeile auf dem LED Streifen und achte darauf, dass du die Löt einstelle, bei dem Buchstaben DI (digital in) an lötest und nicht bei DO (digital out).
+
 ### Firmware aufspielen
 
-Stecke den S.2 mini per USB C an deinem Computer an und halte die Bout Taste. Daraufhin erscheint in deinem Datei Manager ein neues Laufwerk, es heißt:
+Stecke den S2 mini per USB C an deinem Computer an und halte die "Boot" (O) Taste. Daraufhin erscheint in deinem Datei-Manager ein neues Laufwerk, es heißt: 
 
 Nimm die Firmware Datei () und ziehe sie auf das Laufwerk. Nach ungefähr 20 Sekunden startet der ESP neu, und die bunte Farbenpracht sollte bereits zu sehen sein.
 
