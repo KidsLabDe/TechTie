@@ -110,3 +110,8 @@ Nimm die Firmware Datei () und ziehe sie auf das Laufwerk. Nach ungefähr 20 Sek
 ### eigene Anpassungen vornehmen
 
 In dem Ordner "Code" findest du den kompletten Code. Er ist in Ferkic geschrieben und lässt sich sehr einfach anpassen. Ich nehme immer den THONNY Editor, du kannst aber jeden anderen nehmen. 
+
+Im Ordner stl findest du alles zum 3D-Druck-Thema.
+
+Die Dateien zum Editieren gibts auf TinkerCAD: https://www.tinkercad.com/things/5vlvcggtXZ8-techtie-abstand
+
